@@ -19,10 +19,8 @@ public class WebHooks {
                 "--disable-web-security");
         Configuration.browserCapabilities = chromeOptions;
         Configuration.browser = "chrome";
-//        Configuration.browserSize = "1920x1080";
-        Configuration.startMaximized = true;
-        Configuration.timeout = 50000;
-        Configuration.pageLoadTimeout = 120000;
+        Configuration.browserSize = "1920x1080";
+        Configuration.timeout = 10000;
     }
 
     @AfterEach

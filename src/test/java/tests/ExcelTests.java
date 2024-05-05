@@ -31,7 +31,7 @@ public class ExcelTests extends WebHooks {
 //        open("https://www.data.ai/");
 //        $x("//a[@href='https://www.data.ai/account/login']").shouldBe(Condition.visible, Duration.ofSeconds(1000)).click();
 
-        open("https://www.data.ai/account/login");
+        open("https://google.com");
 
 //        Robot r = new Robot();
 //        r.keyPress(KeyEvent.VK_TAB);
@@ -43,11 +43,11 @@ public class ExcelTests extends WebHooks {
 
 //        $x("//input[@name='username']").shouldBe(Condition.visible, Duration.ofSeconds(1000)).setValue(username);
 //        $x("//input[@placeholder='Password']").shouldBe(Condition.visible, Duration.ofSeconds(1000)).setValue(password);
-//        $x("//button[@type='submit']").shouldBe(Condition.visible, Duration.ofSeconds(1000)).click(); //Блокирует доступ к сайту
-        sleep(20000);
-
-        $x("(//a[@aria-label='Просмотреть больше'])[1]").shouldBe(Condition.visible, Duration.ofSeconds(1000)).click();
-        sleep(10000);
+////        $x("//button[@type='submit']").shouldBe(Condition.visible, Duration.ofSeconds(1000)).click(); //Блокирует доступ к сайту
+//        sleep(20000);
+//
+//        $x("(//a[@aria-label='Просмотреть больше'])[1]").shouldBe(Condition.visible, Duration.ofSeconds(1000)).click();
+//        sleep(10000);
 
     }
 }
